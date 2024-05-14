@@ -62,7 +62,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++)
         if (arr[i] % 2 != 0) {
             arr[i] = arr[i] + 1;
+        }
             System.out.println(Arrays.toString(arr));
         }
-    }
 }
